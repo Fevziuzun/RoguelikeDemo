@@ -1,0 +1,53 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Unity YAML files
+*.unity text
+*.meta text
+*.prefab text
+*.asset text
+*.mat text
+*.anim text
+*.controller text
+
+# Force CRLF for certain files
+*.cs text eol=crlf
+
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.psd binary
+
+# Audio files
+*.mp3 binary
+*.ogg binary
+*.wav binary
+
+# Binary files (default)
+*.dll binary
+*.exe binary
+*.so binary
+*.dylib binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Video files
+*.mp4 binary
+*.mov binary
+*.wmv binary
+
+# Unity specific file types
+*.unitypackage binary
+*.fbx binary
+
+# Prevent git from performing any end-of-line conversion for files in these directories
+[Ll]ibrary/* binary
+[Tt]emp/* binary
+[Bb]uild/* binary
+[Bb]uilds/* binary
+Assets/StreamingAssets/* binary
